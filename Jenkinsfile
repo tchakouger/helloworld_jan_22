@@ -18,7 +18,7 @@ pipeline {
                 sleep 10
             }
         }
-        stage('Docker') {
+        stage('Delivery') {
             steps {
                 echo 'Image step'
             }
